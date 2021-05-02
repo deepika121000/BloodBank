@@ -1,0 +1,26 @@
+body{   
+    background:url('https://motionarray.imgix.net/preview-97259-SsNmfaevYJ-high_0005.jpg');
+    height: 100%;
+    background-position: center;
+}  
+#frm{  
+    border: solid rgb(248, 248, 248) 1px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 120px auto;
+    background: rgb(224, 180, 180);  
+    padding: 50px;  
+}  
+#btn{  
+    color: rgb(0, 0, 0);  
+    background: #f7f7f7;  
+    padding: 7px;  
+    margin-left: 70%;  
+}  
+
+.Login-header {
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-size:100%;
+    padding-top: 1%;
+  }

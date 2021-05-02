@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomePage</title>
+  <style>
+    body,
+    html {
+      height: 100%;
+      background-image: url('Bg1.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #login1 {
+      margin-top: 450px;
+      margin-left: 140px;
+    }
+
+    #register1 {
+      margin-top: 450px;
+      margin-left: 235px;
+    }
+
+    #register2 {
+      margin-top: 450px;
+      margin-left: 220px;
+    }
+
+  
+    #login2 {
+      margin-top: 450px;
+      margin-left: 255px;
+    }
+
+    h3 {
+      text-align: right;
+      margin-right: 20px;
+      color: white;
+    }
+
+    /* unvisited link */
+    a:link {
+      color: white;
+    }
+
+    /* visited link */
+    a:visited {
+      color: white
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: wheat;
+    }
+
+    /* selected link */
+    a:active {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h3><a href="contact.html">Contact us</a></h3>
+  <input type="button" onclick="window.location='doctorlogin.php'" class="Redirect" id="login1" value="Login" />
+  <input type="button" onclick="window.location='DonorReg.php'" class="Redirect" id="register1" value="Register" />
+  <input type="button" onclick="window.location='RecepientReg.php'" class="Redirect" id="register2" value="Register" />
+  <input type="button" onclick="window.location='admin.php'" class="Redirect" id="login2" value="Login" />
+
+
+</body>
+
+</html>

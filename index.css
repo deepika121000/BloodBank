@@ -1,0 +1,89 @@
+body {
+    background:url('https://motionarray.imgix.net/preview-97259-SsNmfaevYJ-high_0005.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin:0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: 100% 110%;
+  }
+  h1, h2, h3, h4, h5, h6, a {
+    margin:0; padding:0;
+  }
+  .register {
+    margin:0 auto;
+    max-width:500px;
+  }
+  .register-header {
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-size:100%;
+    padding-top: 10%;
+  }
+  
+  .register-form {
+    border:.5px solid #fff;
+    background:#e69d9d;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #000;
+  }
+  .register-form h3 {
+    text-align:left;
+    margin-left:40px;
+    color:#fff;
+  }
+  .register-form {
+    box-sizing:border-box;
+    padding-top:15px;
+    padding-bottom:10%;
+    margin:5% auto;
+    text-align:center;
+  }
+  .register input[type="text"],
+  .register input[type="email"],
+  .register input[type="date"],
+  .register input[type="number"],
+  .register input[type="password"]
+  {
+    max-width:400px;
+    width: 80%;
+    line-height:3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em 2em;
+    border-radius:5px;
+    border:2px solid #f2f2f2;
+    outline:none;
+    padding-left:10px;
+  }
+  .register-form input[type="button"] {
+    height:30px;
+    width:100px;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    color: slategrey;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+  }
+
+/* unvisited link */
+a:link {
+  color:white;
+}
+
+/* visited link */
+a:visited {
+  color:white
+}
+
+/* mouse over link */
+a:hover {
+  color: wheat;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}  
+
